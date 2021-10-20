@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.onboard-image-card {
+  background-color: #f3e8c9;
+  width: 480px;
+  justify-content: flex-start;
+}
+.onboard-form-card {
+  margin-top: 35px;
+}
+
+.btn {
+  padding: 0.5rem 0.8rem;
+  border: transparent;
+  border-radius: 9px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+}
+
+.btn-logout {
+  background-color: rgba(255, 103, 116, 1);
+  text-align: right;
+}
+.btn-logout-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+
+/* .form-container {
+} */
